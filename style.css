@@ -1,0 +1,257 @@
+/*  developed by Malibongwe Makhubo
+    https://www.linkedin.com/in/malimakhubo/ 
+    https://github.com/Mali-bee */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+
+/* =================== HEADER =================== */
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/* =================== TOP-TABS =================== */
+#tabs-top {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+}
+
+#tabs-top a {
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+#tabs-top a:hover {
+    font-weight: 900;
+    color: #f97f01;
+    transform: scale(1,01);
+    transition-duration: 400ms;
+}
+
+/* =================== MAIN-HOME =================== */
+#main-home {
+    margin-top: 120px;
+    height: 85vh;
+    background-image: url('images/map-blur.jpg');
+    background-size: cover;
+}
+
+/* =================== TABS-BOTTOM =================== */
+#tabs-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 33px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    
+}
+
+#tabs-bottom a:hover {
+    font-weight: 900;
+    color: #f97f01;
+    transform: scale(1,01);
+    transition-duration: 300ms;
+}
+
+
+/* ================== MAIN =================== */
+#main {
+    margin-top: 119px;
+    background: url('images/map-blur.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+
+#content {
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+
+/* ================== INFO BOX =================== */
+a.info-box {
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    margin: 10px;
+}
+
+a.info-box:hover {
+    background: #f97d01;
+    transform: scale(1,01);
+    transition-duration: 300ms;
+}
+.info-box:hover h3{
+    color: #ffffff;
+    transition-duration: 300ms;
+}
+
+.info-box img {
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3 {
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+}
+.info-box:hover h3{
+    color: #ffffff;
+    transition-duration: 300ms;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+.info-box:hover p{
+    color: #ffffff;
+    transition-duration: 300ms;
+}
+
+.info-box img.right {
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+
+/* ================== INFO BOX FULL =================== */
+#info-box-full {
+    background: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#info-box-full img {
+    width: 100%;
+}
+
+#info-box-full h3 {
+    text-align: center;
+}
+
+
+/* ================== WEATHER PAGE =================== */
+img.info-box-weather-icon {
+    height: 30px;
+    width: 30px !important; /*set !imoortant to overwrite previous style rule*/
+    margin: 10px;
+    float: left;
+}
+
+h1.info-box-weather-icon {
+    font-size: 65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border-top: 1px solid #131313;
+}
+
+
+/* ================== FEEDBACK PAGE =================== */
+input {
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    /* padding: 5px; */
+    border: 0px solid #929292;
+    border-radius: 10px;
+    text-indent: 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    /* padding: 5px; */
+    border: 0px;
+    border-radius: 10px;
+    text-indent: 8px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16;
+    font-weight: 600;
+    margin: 12px 0 ;
+    padding: 8px 0;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #f97d01;
+    transition-duration: 300ms;
+}
